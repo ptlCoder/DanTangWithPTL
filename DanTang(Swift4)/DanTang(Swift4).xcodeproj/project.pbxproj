@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		976543BB243D51A5DDF712A0 /* Pods_DanTang_Swift4_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC85584D0E4D401F276E6E1 /* Pods_DanTang_Swift4_.framework */; };
+		EB5F7CA11F8CA9C500DBF88F /* PTLMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C831F8CA72500DBF88F /* PTLMainViewController.swift */; };
+		EB5F7CA21F8CA9E500DBF88F /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7CA01F8CA7C000DBF88F /* Tools.swift */; };
+		EB5F7CA31F8CA9E800DBF88F /* PTLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C7F1F8CA71600DBF88F /* PTLLoginViewController.swift */; };
+		EB5F7CA41F8CAA0300DBF88F /* PTLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C811F8CA71600DBF88F /* PTLLoginViewController.xib */; };
+		EB5F7CA51F8CAA0600DBF88F /* PTLRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C801F8CA71600DBF88F /* PTLRegisterViewController.swift */; };
+		EB5F7CA61F8CAA0C00DBF88F /* PTLRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C821F8CA71600DBF88F /* PTLRegisterViewController.xib */; };
+		EB5F7CA71F8CAA1000DBF88F /* PTLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C841F8CA72500DBF88F /* PTLNavigationController.swift */; };
+		EB5F7CA81F8CAA1200DBF88F /* PTLDanTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C851F8CA74300DBF88F /* PTLDanTangViewController.swift */; };
+		EB5F7CA91F8CAA1A00DBF88F /* PTLDanTangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C861F8CA74300DBF88F /* PTLDanTangViewController.xib */; };
+		EB5F7CAA1F8CAA1E00DBF88F /* PTLProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C891F8CA74F00DBF88F /* PTLProduct.swift */; };
+		EB5F7CAB1F8CAA2000DBF88F /* PTLProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C881F8CA74F00DBF88F /* PTLProductCell.swift */; };
+		EB5F7CAC1F8CAA2600DBF88F /* PTLProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C8A1F8CA74F00DBF88F /* PTLProductCell.xib */; };
+		EB5F7CAD1F8CAA2800DBF88F /* PTLProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C871F8CA74F00DBF88F /* PTLProductViewController.swift */; };
+		EB5F7CAE1F8CAA2F00DBF88F /* PTLProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C8B1F8CA74F00DBF88F /* PTLProductViewController.xib */; };
+		EB5F7CAF1F8CAA3300DBF88F /* PTLClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C9E1F8CA7B200DBF88F /* PTLClassifyViewController.swift */; };
+		EB5F7CB01F8CAA3A00DBF88F /* PTLClassifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C9F1F8CA7B200DBF88F /* PTLClassifyViewController.xib */; };
+		EB5F7CB11F8CAA3D00DBF88F /* PTLClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C9B1F8CA7A900DBF88F /* PTLClassCell.swift */; };
+		EB5F7CB21F8CAA4300DBF88F /* PTLClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C971F8CA7A900DBF88F /* PTLClassCell.xib */; };
+		EB5F7CB31F8CAA4600DBF88F /* PTLSpCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C9A1F8CA7A900DBF88F /* PTLSpCollectionCell.swift */; };
+		EB5F7CB41F8CAA4A00DBF88F /* PTLSpCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C9D1F8CA7AA00DBF88F /* PTLSpCollectionCell.xib */; };
+		EB5F7CB51F8CAA4D00DBF88F /* PTLSpecialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C991F8CA7A900DBF88F /* PTLSpecialCell.swift */; };
+		EB5F7CB61F8CAA5300DBF88F /* PTLSpecialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C961F8CA7A900DBF88F /* PTLSpecialCell.xib */; };
+		EB5F7CB71F8CAA5700DBF88F /* PTLStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C981F8CA7A900DBF88F /* PTLStyleCell.swift */; };
+		EB5F7CB81F8CAA5C00DBF88F /* PTLStyleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C9C1F8CA7A900DBF88F /* PTLStyleCell.xib */; };
+		EB5F7CB91F8CAA5F00DBF88F /* PTLCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C951F8CA7A200DBF88F /* PTLCollection.swift */; };
+		EB5F7CBA1F8CAA6100DBF88F /* PTLGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C941F8CA7A200DBF88F /* PTLGroup.swift */; };
+		EB5F7CBB1F8CAA6800DBF88F /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C8E1F8CA77000DBF88F /* Empty.xib */; };
+		EB5F7CBC1F8CAA6B00DBF88F /* PTLMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C8F1F8CA77000DBF88F /* PTLMyViewController.swift */; };
+		EB5F7CBD1F8CAA7000DBF88F /* PTLMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C8C1F8CA77000DBF88F /* PTLMyViewController.xib */; };
+		EB5F7CBE1F8CAA7A00DBF88F /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5F7C901F8CA77000DBF88F /* ViewController1.xib */; };
+		EB5F7CBF1F8CAA7D00DBF88F /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7C8D1F8CA77000DBF88F /* ViewController1.swift */; };
+		EB98C3051F8CA33700DA5B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98C3041F8CA33700DA5B84 /* AppDelegate.swift */; };
+		EB98C3071F8CA33700DA5B84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB98C3061F8CA33700DA5B84 /* ViewController.swift */; };
+		EB98C30A1F8CA33700DA5B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB98C3081F8CA33700DA5B84 /* Main.storyboard */; };
+		EB98C30C1F8CA33700DA5B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB98C30B1F8CA33700DA5B84 /* Assets.xcassets */; };
+		EB98C30F1F8CA33700DA5B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB98C30D1F8CA33700DA5B84 /* LaunchScreen.storyboard */; };
+		EBE2C8F51F8DFD990008177A /* PTLClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2C8F31F8DFD990008177A /* PTLClassViewController.swift */; };
+		EBE2C8F61F8DFD990008177A /* PTLClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE2C8F41F8DFD990008177A /* PTLClassViewController.xib */; };
+		EBE2C8F81F8E0B810008177A /* PTLClassDes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2C8F71F8E0B810008177A /* PTLClassDes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06DC448FBA2C5DE49A114C7E /* Pods-DanTang(Swift4).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang(Swift4).debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang(Swift4)/Pods-DanTang(Swift4).debug.xcconfig"; sourceTree = "<group>"; };
+		6FC85584D0E4D401F276E6E1 /* Pods_DanTang_Swift4_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTang_Swift4_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C09FF3EE4A7344063F9E2D /* Pods-DanTang(Swift4).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang(Swift4).release.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang(Swift4)/Pods-DanTang(Swift4).release.xcconfig"; sourceTree = "<group>"; };
+		EB5F7C7F1F8CA71600DBF88F /* PTLLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLLoginViewController.swift; sourceTree = "<group>"; };
+		EB5F7C801F8CA71600DBF88F /* PTLRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLRegisterViewController.swift; sourceTree = "<group>"; };
+		EB5F7C811F8CA71600DBF88F /* PTLLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLLoginViewController.xib; sourceTree = "<group>"; };
+		EB5F7C821F8CA71600DBF88F /* PTLRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLRegisterViewController.xib; sourceTree = "<group>"; };
+		EB5F7C831F8CA72500DBF88F /* PTLMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLMainViewController.swift; sourceTree = "<group>"; };
+		EB5F7C841F8CA72500DBF88F /* PTLNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLNavigationController.swift; sourceTree = "<group>"; };
+		EB5F7C851F8CA74300DBF88F /* PTLDanTangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLDanTangViewController.swift; sourceTree = "<group>"; };
+		EB5F7C861F8CA74300DBF88F /* PTLDanTangViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLDanTangViewController.xib; sourceTree = "<group>"; };
+		EB5F7C871F8CA74F00DBF88F /* PTLProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLProductViewController.swift; sourceTree = "<group>"; };
+		EB5F7C881F8CA74F00DBF88F /* PTLProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLProductCell.swift; sourceTree = "<group>"; };
+		EB5F7C891F8CA74F00DBF88F /* PTLProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLProduct.swift; sourceTree = "<group>"; };
+		EB5F7C8A1F8CA74F00DBF88F /* PTLProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLProductCell.xib; sourceTree = "<group>"; };
+		EB5F7C8B1F8CA74F00DBF88F /* PTLProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLProductViewController.xib; sourceTree = "<group>"; };
+		EB5F7C8C1F8CA77000DBF88F /* PTLMyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLMyViewController.xib; sourceTree = "<group>"; };
+		EB5F7C8D1F8CA77000DBF88F /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		EB5F7C8E1F8CA77000DBF88F /* Empty.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+		EB5F7C8F1F8CA77000DBF88F /* PTLMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLMyViewController.swift; sourceTree = "<group>"; };
+		EB5F7C901F8CA77000DBF88F /* ViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		EB5F7C941F8CA7A200DBF88F /* PTLGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLGroup.swift; sourceTree = "<group>"; };
+		EB5F7C951F8CA7A200DBF88F /* PTLCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLCollection.swift; sourceTree = "<group>"; };
+		EB5F7C961F8CA7A900DBF88F /* PTLSpecialCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLSpecialCell.xib; sourceTree = "<group>"; };
+		EB5F7C971F8CA7A900DBF88F /* PTLClassCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLClassCell.xib; sourceTree = "<group>"; };
+		EB5F7C981F8CA7A900DBF88F /* PTLStyleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLStyleCell.swift; sourceTree = "<group>"; };
+		EB5F7C991F8CA7A900DBF88F /* PTLSpecialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLSpecialCell.swift; sourceTree = "<group>"; };
+		EB5F7C9A1F8CA7A900DBF88F /* PTLSpCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLSpCollectionCell.swift; sourceTree = "<group>"; };
+		EB5F7C9B1F8CA7A900DBF88F /* PTLClassCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLClassCell.swift; sourceTree = "<group>"; };
+		EB5F7C9C1F8CA7A900DBF88F /* PTLStyleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLStyleCell.xib; sourceTree = "<group>"; };
+		EB5F7C9D1F8CA7AA00DBF88F /* PTLSpCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLSpCollectionCell.xib; sourceTree = "<group>"; };
+		EB5F7C9E1F8CA7B200DBF88F /* PTLClassifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLClassifyViewController.swift; sourceTree = "<group>"; };
+		EB5F7C9F1F8CA7B200DBF88F /* PTLClassifyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLClassifyViewController.xib; sourceTree = "<group>"; };
+		EB5F7CA01F8CA7C000DBF88F /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		EB98C3011F8CA33700DA5B84 /* DanTang(Swift4).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DanTang(Swift4).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB98C3041F8CA33700DA5B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB98C3061F8CA33700DA5B84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB98C3091F8CA33700DA5B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB98C30B1F8CA33700DA5B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB98C30E1F8CA33700DA5B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB98C3101F8CA33700DA5B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE2C8F31F8DFD990008177A /* PTLClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLClassViewController.swift; sourceTree = "<group>"; };
+		EBE2C8F41F8DFD990008177A /* PTLClassViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLClassViewController.xib; sourceTree = "<group>"; };
+		EBE2C8F71F8E0B810008177A /* PTLClassDes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLClassDes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB98C2FE1F8CA33700DA5B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976543BB243D51A5DDF712A0 /* Pods_DanTang_Swift4_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333CD5A1449125249BDBBDEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC85584D0E4D401F276E6E1 /* Pods_DanTang_Swift4_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1DE7428B56A077EDFA6B481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06DC448FBA2C5DE49A114C7E /* Pods-DanTang(Swift4).debug.xcconfig */,
+				A3C09FF3EE4A7344063F9E2D /* Pods-DanTang(Swift4).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB5F7C911F8CA77F00DBF88F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7C951F8CA7A200DBF88F /* PTLCollection.swift */,
+				EB5F7C941F8CA7A200DBF88F /* PTLGroup.swift */,
+				EBE2C8F71F8E0B810008177A /* PTLClassDes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB5F7C921F8CA78700DBF88F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7C9A1F8CA7A900DBF88F /* PTLSpCollectionCell.swift */,
+				EB5F7C9D1F8CA7AA00DBF88F /* PTLSpCollectionCell.xib */,
+				EB5F7C991F8CA7A900DBF88F /* PTLSpecialCell.swift */,
+				EB5F7C961F8CA7A900DBF88F /* PTLSpecialCell.xib */,
+				EB5F7C981F8CA7A900DBF88F /* PTLStyleCell.swift */,
+				EB5F7C9C1F8CA7A900DBF88F /* PTLStyleCell.xib */,
+				EB5F7C9B1F8CA7A900DBF88F /* PTLClassCell.swift */,
+				EB5F7C971F8CA7A900DBF88F /* PTLClassCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB5F7C931F8CA78E00DBF88F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7C9E1F8CA7B200DBF88F /* PTLClassifyViewController.swift */,
+				EB5F7C9F1F8CA7B200DBF88F /* PTLClassifyViewController.xib */,
+				EBE2C8F31F8DFD990008177A /* PTLClassViewController.swift */,
+				EBE2C8F41F8DFD990008177A /* PTLClassViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EB98C2F81F8CA33700DA5B84 = {
+			isa = PBXGroup;
+			children = (
+				EB98C3031F8CA33700DA5B84 /* DanTang(Swift4) */,
+				EB98C3021F8CA33700DA5B84 /* Products */,
+				E1DE7428B56A077EDFA6B481 /* Pods */,
+				333CD5A1449125249BDBBDEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB98C3021F8CA33700DA5B84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB98C3011F8CA33700DA5B84 /* DanTang(Swift4).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB98C3031F8CA33700DA5B84 /* DanTang(Swift4) */ = {
+			isa = PBXGroup;
+			children = (
+				EB98C3041F8CA33700DA5B84 /* AppDelegate.swift */,
+				EB98C31D1F8CA41600DA5B84 /* Other */,
+				EB98C31C1F8CA40B00DA5B84 /* Tools */,
+				EB98C31E1F8CA43B00DA5B84 /* Controllers */,
+			);
+			path = "DanTang(Swift4)";
+			sourceTree = "<group>";
+		};
+		EB98C3161F8CA3B600DA5B84 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7C7F1F8CA71600DBF88F /* PTLLoginViewController.swift */,
+				EB5F7C811F8CA71600DBF88F /* PTLLoginViewController.xib */,
+				EB5F7C801F8CA71600DBF88F /* PTLRegisterViewController.swift */,
+				EB5F7C821F8CA71600DBF88F /* PTLRegisterViewController.xib */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		EB98C3171F8CA3C200DA5B84 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7C831F8CA72500DBF88F /* PTLMainViewController.swift */,
+				EB5F7C841F8CA72500DBF88F /* PTLNavigationController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EB98C3181F8CA3CC00DA5B84 /* 单糖 */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7C851F8CA74300DBF88F /* PTLDanTangViewController.swift */,
+				EB5F7C861F8CA74300DBF88F /* PTLDanTangViewController.xib */,
+			);
+			path = "单糖";
+			sourceTree = "<group>";
+		};
+		EB98C3191F8CA3E300DA5B84 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7C931F8CA78E00DBF88F /* Controllers */,
+				EB5F7C921F8CA78700DBF88F /* Views */,
+				EB5F7C911F8CA77F00DBF88F /* Models */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		EB98C31A1F8CA3F300DA5B84 /* 单品 */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7C891F8CA74F00DBF88F /* PTLProduct.swift */,
+				EB5F7C881F8CA74F00DBF88F /* PTLProductCell.swift */,
+				EB5F7C8A1F8CA74F00DBF88F /* PTLProductCell.xib */,
+				EB5F7C871F8CA74F00DBF88F /* PTLProductViewController.swift */,
+				EB5F7C8B1F8CA74F00DBF88F /* PTLProductViewController.xib */,
+			);
+			path = "单品";
+			sourceTree = "<group>";
+		};
+		EB98C31B1F8CA40200DA5B84 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7C8E1F8CA77000DBF88F /* Empty.xib */,
+				EB5F7C8F1F8CA77000DBF88F /* PTLMyViewController.swift */,
+				EB5F7C8C1F8CA77000DBF88F /* PTLMyViewController.xib */,
+				EB5F7C8D1F8CA77000DBF88F /* ViewController1.swift */,
+				EB5F7C901F8CA77000DBF88F /* ViewController1.xib */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		EB98C31C1F8CA40B00DA5B84 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F7CA01F8CA7C000DBF88F /* Tools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EB98C31D1F8CA41600DA5B84 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EB98C3061F8CA33700DA5B84 /* ViewController.swift */,
+				EB98C3081F8CA33700DA5B84 /* Main.storyboard */,
+				EB98C30B1F8CA33700DA5B84 /* Assets.xcassets */,
+				EB98C30D1F8CA33700DA5B84 /* LaunchScreen.storyboard */,
+				EB98C3101F8CA33700DA5B84 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EB98C31E1F8CA43B00DA5B84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB98C3161F8CA3B600DA5B84 /* 登录注册 */,
+				EB98C3171F8CA3C200DA5B84 /* Main */,
+				EB98C3181F8CA3CC00DA5B84 /* 单糖 */,
+				EB98C31A1F8CA3F300DA5B84 /* 单品 */,
+				EB98C3191F8CA3E300DA5B84 /* 分类 */,
+				EB98C31B1F8CA40200DA5B84 /* 我 */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB98C3001F8CA33700DA5B84 /* DanTang(Swift4) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB98C3131F8CA33700DA5B84 /* Build configuration list for PBXNativeTarget "DanTang(Swift4)" */;
+			buildPhases = (
+				BF1AFDEE6DA463F07DAFE5E5 /* [CP] Check Pods Manifest.lock */,
+				EB98C2FD1F8CA33700DA5B84 /* Sources */,
+				EB98C2FE1F8CA33700DA5B84 /* Frameworks */,
+				EB98C2FF1F8CA33700DA5B84 /* Resources */,
+				7EEB767087CD3FA015C1FA07 /* [CP] Embed Pods Frameworks */,
+				817FBDFF0D4239C2791E1A1D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DanTang(Swift4)";
+			productName = "DanTang(Swift4)";
+			productReference = EB98C3011F8CA33700DA5B84 /* DanTang(Swift4).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB98C2F91F8CA33700DA5B84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = soliloquy;
+				TargetAttributes = {
+					EB98C3001F8CA33700DA5B84 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB98C2FC1F8CA33700DA5B84 /* Build configuration list for PBXProject "DanTang(Swift4)" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB98C2F81F8CA33700DA5B84;
+			productRefGroup = EB98C3021F8CA33700DA5B84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB98C3001F8CA33700DA5B84 /* DanTang(Swift4) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB98C2FF1F8CA33700DA5B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE2C8F61F8DFD990008177A /* PTLClassViewController.xib in Resources */,
+				EB5F7CBD1F8CAA7000DBF88F /* PTLMyViewController.xib in Resources */,
+				EB5F7CB01F8CAA3A00DBF88F /* PTLClassifyViewController.xib in Resources */,
+				EB98C30F1F8CA33700DA5B84 /* LaunchScreen.storyboard in Resources */,
+				EB5F7CA91F8CAA1A00DBF88F /* PTLDanTangViewController.xib in Resources */,
+				EB5F7CBE1F8CAA7A00DBF88F /* ViewController1.xib in Resources */,
+				EB5F7CB81F8CAA5C00DBF88F /* PTLStyleCell.xib in Resources */,
+				EB5F7CAC1F8CAA2600DBF88F /* PTLProductCell.xib in Resources */,
+				EB5F7CA61F8CAA0C00DBF88F /* PTLRegisterViewController.xib in Resources */,
+				EB98C30C1F8CA33700DA5B84 /* Assets.xcassets in Resources */,
+				EB5F7CB41F8CAA4A00DBF88F /* PTLSpCollectionCell.xib in Resources */,
+				EB5F7CAE1F8CAA2F00DBF88F /* PTLProductViewController.xib in Resources */,
+				EB5F7CB61F8CAA5300DBF88F /* PTLSpecialCell.xib in Resources */,
+				EB98C30A1F8CA33700DA5B84 /* Main.storyboard in Resources */,
+				EB5F7CBB1F8CAA6800DBF88F /* Empty.xib in Resources */,
+				EB5F7CA41F8CAA0300DBF88F /* PTLLoginViewController.xib in Resources */,
+				EB5F7CB21F8CAA4300DBF88F /* PTLClassCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EEB767087CD3FA015C1FA07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DanTang(Swift4)/Pods-DanTang(Swift4)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTang(Swift4)/Pods-DanTang(Swift4)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817FBDFF0D4239C2791E1A1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTang(Swift4)/Pods-DanTang(Swift4)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1AFDEE6DA463F07DAFE5E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DanTang(Swift4)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB98C2FD1F8CA33700DA5B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE2C8F51F8DFD990008177A /* PTLClassViewController.swift in Sources */,
+				EB5F7CAB1F8CAA2000DBF88F /* PTLProductCell.swift in Sources */,
+				EB5F7CB31F8CAA4600DBF88F /* PTLSpCollectionCell.swift in Sources */,
+				EB5F7CB51F8CAA4D00DBF88F /* PTLSpecialCell.swift in Sources */,
+				EB5F7CA11F8CA9C500DBF88F /* PTLMainViewController.swift in Sources */,
+				EB98C3071F8CA33700DA5B84 /* ViewController.swift in Sources */,
+				EB5F7CAD1F8CAA2800DBF88F /* PTLProductViewController.swift in Sources */,
+				EB5F7CA71F8CAA1000DBF88F /* PTLNavigationController.swift in Sources */,
+				EB5F7CA51F8CAA0600DBF88F /* PTLRegisterViewController.swift in Sources */,
+				EB5F7CB91F8CAA5F00DBF88F /* PTLCollection.swift in Sources */,
+				EB98C3051F8CA33700DA5B84 /* AppDelegate.swift in Sources */,
+				EB5F7CAF1F8CAA3300DBF88F /* PTLClassifyViewController.swift in Sources */,
+				EBE2C8F81F8E0B810008177A /* PTLClassDes.swift in Sources */,
+				EB5F7CA81F8CAA1200DBF88F /* PTLDanTangViewController.swift in Sources */,
+				EB5F7CBA1F8CAA6100DBF88F /* PTLGroup.swift in Sources */,
+				EB5F7CA31F8CA9E800DBF88F /* PTLLoginViewController.swift in Sources */,
+				EB5F7CA21F8CA9E500DBF88F /* Tools.swift in Sources */,
+				EB5F7CAA1F8CAA1E00DBF88F /* PTLProduct.swift in Sources */,
+				EB5F7CBF1F8CAA7D00DBF88F /* ViewController1.swift in Sources */,
+				EB5F7CBC1F8CAA6B00DBF88F /* PTLMyViewController.swift in Sources */,
+				EB5F7CB71F8CAA5700DBF88F /* PTLStyleCell.swift in Sources */,
+				EB5F7CB11F8CAA3D00DBF88F /* PTLClassCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB98C3081F8CA33700DA5B84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB98C3091F8CA33700DA5B84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB98C30D1F8CA33700DA5B84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB98C30E1F8CA33700DA5B84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB98C3111F8CA33700DA5B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB98C3121F8CA33700DA5B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB98C3141F8CA33700DA5B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DC448FBA2C5DE49A114C7E /* Pods-DanTang(Swift4).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYBK7B7U6R;
+				INFOPLIST_FILE = "$(SRCROOT)/DanTang(Swift4)/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "soliloquy.DanTang-Swift4-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB98C3151F8CA33700DA5B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C09FF3EE4A7344063F9E2D /* Pods-DanTang(Swift4).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYBK7B7U6R;
+				INFOPLIST_FILE = "$(SRCROOT)/DanTang(Swift4)/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "soliloquy.DanTang-Swift4-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB98C2FC1F8CA33700DA5B84 /* Build configuration list for PBXProject "DanTang(Swift4)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB98C3111F8CA33700DA5B84 /* Debug */,
+				EB98C3121F8CA33700DA5B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB98C3131F8CA33700DA5B84 /* Build configuration list for PBXNativeTarget "DanTang(Swift4)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB98C3141F8CA33700DA5B84 /* Debug */,
+				EB98C3151F8CA33700DA5B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB98C2F91F8CA33700DA5B84 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_DanTang_Swift4_ {
+  umbrella header "Pods-DanTang(Swift4)-umbrella.h"
+
+  export *
+  module * { export * }
+}
